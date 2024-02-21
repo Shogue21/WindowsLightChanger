@@ -12,7 +12,7 @@ from time import time, sleep
 
 
 class MyTaskBarIcon(TaskBarIcon):
-    def __init__(self, frame, time=10):
+    def __init__(self, frame, time=60):
         TaskBarIcon.__init__(self)
 
         self.frame = frame
